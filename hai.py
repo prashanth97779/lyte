@@ -1,3 +1,4 @@
 print("hello World..!")
 name = input("Enter the name")
-print(f"Welcome {name}")
+age = int(input())
+print(f"Welcome {name} the age:{age}")
