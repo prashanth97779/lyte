@@ -1,3 +1,4 @@
 print("hello World..!")
-name = input("Enter the name")
-print(f"Welcome {name}")
+name,surname = map(str,input().split())
+
+print(f"Welcome {name}{surname}")
